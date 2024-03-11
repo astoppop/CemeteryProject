@@ -1,0 +1,60 @@
+.cover {
+    height: 100dvh;
+    color: #c1bdb3;
+}
+
+.coverVideo {
+    z-index: -1;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+    pointer-events: none;
+}
+
+.videoOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(to bottom, rgba(13, 32, 37, 0.80) 0 70%, rgba(200, 200, 200, 1) 100% 100%);
+    pointer-events: none;
+}
+
+.cover .grid {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc(100% - 80px);
+    padding: 40px;
+
+    display: grid;
+    grid-template-columns: max(400px, 40%) 1fr;
+    place-items: center;
+}
+
+.cover .grid div:nth-child(1) {
+    text-align: right;
+}
+.cover .grid div:nth-child(1) h1 {
+    margin-bottom: 20px;
+    font-size: 200px;
+    line-height: 160px;
+}
+
+.cover .grid div:nth-child(2) p {
+    border-left: #c2782b 1px solid;
+    text-align: left;
+    margin-left: 25px;
+    padding-left: 25px;
+    font-size: 3rem;
+}
+
+.orange {
+    color: #c2782b;
+}

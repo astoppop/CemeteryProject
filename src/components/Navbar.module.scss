@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+}
+
+.navbar {
+    z-index: 9999;
+
+    position: fixed;
+    width: calc(100% - 50px);
+    top: 0;
+    padding: 25px;
+}
+
+.logo {
+    width: fit-content;
+    color: #c2782b;
+}
+
+.black {
+    z-index: 1;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100dvh;
+
+    background-color: #000000;
+    opacity: 0;
+    transition: .8s linear;
+
+    pointer-events: none;
+}
+.black.animate {
+    opacity: 0.8;
+}
+
+.navmenu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100dvh;
+    pointer-events: none;
+}
+
+.navmenu > div {
+    position: absolute;
+    height: 100%;
+    box-sizing: border-box;
+    pointer-events: all;
+    background-color: #c8c8c8;
+}
+
+.navimg {
+    z-index: 9000;
+
+    left: 0;
+    bottom: 100dvh;
+    width: max(35%, 400px);
+
+    background-size: cover;
+    background-position: top center;
+
+    border-right: #000000 1px solid;
+
+    transition: 0.8s cubic-bezier(0.66, 0, 0.28, 1);
+    
+}
+.navimg.animate {
+    bottom: 0;
+    transition: 0.8s cubic-bezier(0.72, 0, 0.34, 1);
+}
+
+.links {
+    z-index: 9000;
+
+    right: 0;
+    bottom: 100dvh;
+    width: calc(100% - max(35%, 400px));
+
+    transition: 0.8s cubic-bezier(0.66, 0, 0.28, 1);
+    transition-delay: 0.1s;
+
+    background-color: #ffffff;
+}
+.links.animate {
+    bottom: 0;
+    transition: 0.8s cubic-bezier(0.72, 0, 0.34, 1);
+    transition-delay: 0.1s;
+}
+
+.links > div {
+    height: calc(100% - 100px);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.links > div > div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hamburgerHB {
+    z-index: 9999;
+
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    top: 20px;
+
+    cursor: pointer;
+}
+
+.hamburger {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.hamburger > div {
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #c2782b;
+
+    transform: translateY(-50%);
+    transition: 0.5s ease-in-out;
+    transform-origin: center;
+}
+
+.hamburger > div:nth-child(1) {
+    top: 0;
+}
+.hamburger.animate > div:nth-child(1) {
+    transform: translateY(calc(-50% + 10px)) rotate(225deg);
+}
+
+.hamburger > div:nth-child(2) {
+    top: 50%;
+}
+.hamburger.animate > div:nth-child(2) {
+    transform: translatey(-50%) rotate(135deg);
+}
+
+.hamburger > div:nth-child(3) {
+    top: 100%;
+}
+.hamburger.animate > div:nth-child(3) {
+    transform: translateY(calc(-50% - 10px)) rotate(135deg);
+}
