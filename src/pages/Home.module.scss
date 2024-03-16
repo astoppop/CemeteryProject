@@ -22,7 +22,7 @@
     width: 100%;
     height: 100vh;
 
-    background: linear-gradient(to bottom, rgba(13, 32, 37, 0.80) 0 70%, rgba(200, 200, 200, 1) 100% 100%);
+    background: linear-gradient(to bottom, rgba(13, 32, 37, 0.8) 0 60%, rgba(13, 32, 37, 1) 100%);
     pointer-events: none;
 }
 
@@ -57,4 +57,38 @@
 
 .orange {
     color: #c2782b;
+}
+
+.intro {
+    background-color: #0d2025;
+    color: #c1bdb3;
+}
+
+.biography {
+
+}
+
+.timeline {
+    background-color: #0d2025;
+    color: #c1bdb3;
+}
+
+.timelineGrid {
+    margin: 0 30px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr;
+}
+
+.timelineGrid .timelineBar {
+    width: 8px;
+    height: 100%;
+}
+.timelineGrid .timelineBar.top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.timelineGrid .timelineBar.bottom {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }

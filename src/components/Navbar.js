@@ -2,8 +2,18 @@ import { useState } from 'react';
 import JohnScott from '../assets/JohnScott.jpg';
 import styles from './Navbar.module.scss';
 
+const scrollTo = (id, setOpen) => {
+    setOpen(false);
+
+    setTimeout(() => {
+        const anchor = document.querySelector(id);
+        anchor.scrollIntoView({ behavior: 'smooth' });
+    }, 300);
+};
+
 const Navbar = () => {
     let [open, setOpen] = useState(false);
+
     
     return (
         <>
@@ -24,10 +34,10 @@ const Navbar = () => {
                             <h2>John Scott</h2>
                             <div>
                                 <p>Home</p>
-                                <p>Biography</p>
-                                <p>Timeline</p>
-                                <p>Documents</p>
-                                <p>Family Tree</p>
+                                <p onClick={() => {scrollTo('#biography', setOpen)}}>Biography</p>
+                                <p onClick={() => {scrollTo('#timeline', setOpen)}}>Timeline</p>
+                                <p onClick={() => {scrollTo('#documents', setOpen)}}>Documents</p>
+                                <p onClick={() => {scrollTo('#tree', setOpen)}}>Family Tree</p>
                             </div>
                         </div>
                     </div>
