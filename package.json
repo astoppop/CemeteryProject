@@ -1,5 +1,6 @@
 {
   "name": "cemetery-project",
+  "homepage": "https://astoppop.github.io/CemeteryProject/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
