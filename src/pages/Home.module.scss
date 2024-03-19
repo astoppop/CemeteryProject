@@ -59,6 +59,10 @@
     color: #c2782b;
 }
 
+.section {
+    padding: 50px 0;
+}
+
 .intro {
     background-color: #0d2025;
     color: #c1bdb3;
@@ -66,10 +70,13 @@
 
 .intro h3, .intro p {
     margin: 20px;
+    margin-bottom: 0;
 }
 
 .biography {
-
+    height: 100vh;
+    background-color: #0d2025;
+    color: #c1bdb3;
 }
 
 .timeline {
@@ -84,27 +91,32 @@
 
 .timelineDate h1 {
     position: relative;
-    top: 40px;
     color: #ffffff;
     font-size: 400px;
 }
 
-.timelineGrid {
+.timelinePoint {
     margin: 0 30px;
-    margin-left: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    padding: 0 50px;
 }
 
-.timelineGrid .timelineBar {
-    width: 8px;
-    height: 100%;
+.photos {
+    background-color: #0d2025;
+    color: #c1bdb3;
 }
-.timelineGrid .timelineBar.top {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+
+.documents {
+    height: 100vh;
+    background-color: #0d2025;
+    color: #c1bdb3;
 }
-.timelineGrid .timelineBar.bottom {
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+
+.tree {
+    background-color: #0d2025;
+    color: #c1bdb3;
+}
+
+.tree img {
+    width: 80%;
 }

@@ -1,52 +1,292 @@
 [
     {
-        "date": "1600s",
+        "period": "1600s",
         "points": [
             {
-                "title": "",
+                "title": "Hugh Scott's Arrival",
                 "tag": 0,
-                "year": "1670",
+                "date": "1670",
                 "desc": "Scotch-Irish immigrant Hugh Scott's arrival in the United States serves as a foundational moment in the Scott family's history, marking the earliest known instance of Scott migration to America. This event lays the groundwork for subsequent generations of Scotts to establish themselves in the New World, shaping the family's identity and legacy for centuries to come."
             },
             {
-                "title": "",
+                "title": "Scott Family’s Involvement in the Quaker Movement",
                 "tag": 0,
-                "year": "late 1600s",
-                "desc": "John Scott's ancestors, originally hailing from Yorkshire, England, become actively involved in the Quaker movement, aligning themselves with the Marsden Monthly Meeting and deepening their spiritual connection to the burgeoning Quaker community. Their decision to embrace Quakerism reflects a commitment to religious freedom and sets the stage for future generations to uphold Quaker values and principles."
+                "date": "late 1600s",
+                "desc": "John Scott's ancestors, originally hailing from Yorkshire, England, become actively involved in the Quaker movement, aligning themselves with the Marsden Monthly Meeting and deepening their spiritual connection to the burgeoning Quaker community."
             },
             {
-                "title": "",
+                "title": "Scott Family’s Journey To America Aboard the Briannia",
                 "tag": 0,
-                "year": "1699",
-                "desc": "John Scott's great-great-great-grandfather embarks on a transformative journey to America aboard the Quaker-sponsored ship Britannia, seeking refuge from religious persecution and securing the family's future by acquiring land in Bucks County, Pennsylvania. This pivotal moment marks the beginning of the Scott family's American journey and underscores their resilience in the face of adversity."
-            },
-            {
-                "title": "",
-                "tag": 0,
-                "year": "late 1600s to early 1700s",
-                "desc": "John Scott's paternal ancestors establish themselves in Pennsylvania, initially adhering to Protestantism before potentially converting to Quakerism in the late 1600s. Their religious affiliation reflects the dynamic religious landscape of the time and highlights the diverse spiritual paths taken by early settlers in America."
+                "date": "1699",
+                "desc": "John Scott's great-great-great-grandfather and his children embarked on a journey to America aboard the Quaker-sponsored ship Britannia, seeking refuge from religious persecution and securing the family's future by acquiring land in Bucks County, Pennsylvania. This marks the beginning of the Scott family's American journey."
             }
         ]
     },
     {
-        "date": "1700s",
+        "period": "1700s",
         "points": [
             {
-                "title": "",
+                "title": "David Scott Purchases Land in Huntingdon County",
                 "tag": 0,
-                "year": "1797",
-                "desc": "John Scott's grandfather, David Scott, makes a significant land purchase in Barree Township, Huntingdon County, Pennsylvania, signaling the family's continued presence and prosperity in the region. This acquisition solidifies the Scotts' roots in Pennsylvania and lays the foundation for future generations to thrive in their new homeland."
+                "date": "1797",
+                "desc": "John Scott's grandfather, David Scott, makes a significant land purchase in Barree Township, Huntingdon County, Pennsylvania, signaling the family's continued presence and prosperity in the region."
+            },
+            {
+                "title": "Shoemaking and Tannery Business",
+                "tag": 0,
+                "date": "late 1700s",
+                "desc": "John Scott’s father created a business in shoemaking and tannery that he worked himself, along with help from his children, that would sustain the family throughout the rest of his life."
             }
         ]
     },
     {
-        "date": "1800s",
+        "period": "1800s",
         "points": [
             {
-                "title": "",
+                "title": "Agnes Irvine",
                 "tag": 0,
-                "year": "1820",
+                "date": "July 17, 1820",
                 "desc": "The passing of Sarah Davis, John Scott's father's first wife, brings profound sorrow to the family and underscores the fragility of life in the 19th century. Her death leaves a void in the family unit, prompting John Scott's father to eventually remarry and seek companionship in Agnes Irvine."
+            },
+            {
+                "title": "Early Infrastructure Developments",
+                "tag": 1,
+                "date": "1820s",
+                "desc": "Philadelphia witnessed rapid population and infrastructure growth in the 1820s. Notably, in 1824, key civil infrastructure developments occurred with the construction of the Chesapeake and Delaware Canal and The Fairmount Waterworks. These advancements extended west into Pennsylvania, reaching Huntington County and Blair County. John Scott's father played a role in approving the Pennsylvania Canal System in February 1826, making the Scott family actively involved in these new constructions."
+            },
+            {
+                "title": "Rise of Andrew Jackson and Jacksonian Democracy",
+                "tag": 2,
+                "date": "1820s - 1830s",
+                "desc": "While narrowly losing the 1824 election, Andrew Jackson's Common Man ideology began influencing Americans. Winning the popular vote but facing a House of Representatives decision, Jackson lost to John Quincy Adams, leading to the “corrupt bargain.” Jackson's subsequent 1828 victory marked the rise of Jacksonian Democracy, characterized by white male suffrage and opposition to the Second National Bank. John Scott, born in 1824 into a family supportive of Jacksonian politics, likely experienced the nuances of changing national politics during his adolescence, shaping his own views that occasionally diverged from party lines."
+            },
+            {
+                "title": "Second Great Awakening and Presbyterian Revivalism",
+                "tag": 2,
+                "date": "1820s - 1830s",
+                "desc": "The Second Great Awakening, a religious revival in the 1820s and 1830s, saw Charles G. Finney leading the New School of Presbyterianism. This movement, particularly embraced by people of Scott-Irish ancestry, including John Scott's family, contributed to a resurgence of religious fervor. John Scott's mother, Agnes Scott, exhibited a known affinity for the Bible and Presbyterianism. Scott's later affiliation with the West Walnut Street Presbyterian Church in Philadelphia demonstrates the lasting impact of revivalism on his life."
+            },
+            {
+                "title": "The Birth of John Scott",
+                "tag": 0,
+                "date": "July 14, 1824",
+                "desc": "John Scott, was born in Alexandria, Huntingdon County, Pennsylvania, heralding the arrival of a new generation of Scotts in America."
+            },
+            {
+                "title": "Horace Mann and the Common School Movement",
+                "tag": 2,
+                "date": "1837",
+                "desc": "In 1837, Horace Mann became Secretary of the Massachusetts Board of Education, initiating the Common School Movement. Mann's efforts focused on modernizing the education system through a semi-secular curriculum. John Scott, directly influenced by these educational reforms, attended common schools in Alexandria, gaining public speaking skills complemented by private tutoring. The Scott family's commitment to education reflected the broader impact of the Common School Movement."
+            },
+            {
+                "title": "Washington Temperance Movement",
+                "tag": 2,
+                "date": "early 1840s",
+                "desc": "In 1840, the Washington Temperance Society emerged as one of the first successful attempts to reduce alcohol consumption. With an estimated 600,000 people pledging to abstain, weekly public meetings became common around the East Coast. John Scott's early political involvement included participation in the Washington Temperance movement, indicating his dedication and interest in the cause. The movement's focus on bringing in new members aligns with Scott's likely persuasive skills."
+            },
+            {
+                "title": "Law Education",
+                "tag": 0,
+                "date": "Novemeber 1842",
+                "desc": "John Scott embarked on formal legal education at Marshall College, laying the groundwork for his future career as an attorney."
+            },
+            {
+                "title": "Halted Education to Divide Brother's Estate",
+                "tag": 0,
+                "date": "1843",
+                "desc": "Assuming the responsibility of executor for his half-brother Dr. Oliver Scott's will, John Scott demonstrates his leadership and legal acumen at a young age. Scott took six months off from college in his second year to divide his Dr. Oliver’s estate."
+            },
+            {
+                "title": "Graduation",
+                "tag": 0,
+                "date": "1845",
+                "desc": "Scott graduated from Marshall College after four years of attendance."
+            },
+            {
+                "title": "Scott’s Huntingdon Bar Admittance",
+                "tag": 0,
+                "date": "January 23, 1846",
+                "desc": "John Scott was admitted to the Huntingdon Bar, formalizing his status as a practicing attorney. This achievement represents years of dedication and hard work, positioning him to make a meaningful impact in the legal profession and beyond."
+            },
+            {
+                "title": "John Scott Starts Legal Practice",
+                "tag": 1,
+                "date": "1846",
+                "desc": "John Scott embarked on his legal career in Philadelphia. Concurrently, the city became a hotbed for radical abolitionist movements, with the trials of fugitive slaves in Independence Hall capturing significant attention. As a lawyer, Scott would have been keenly interested in these developments, though his stance on the outcomes may have been influenced by changing political allegiances."
+            },
+            {
+                "title": "Scott's Law Firm",
+                "tag": 0,
+                "date": "1846",
+                "desc": "Founding his law office with Samuel T. Brown, John Scott took his first steps as a legal practitioner, establishing himself as a respected member of the legal community. His decision to open his own firm reflects a desire for autonomy and a commitment to serving his clients with integrity and professionalism."
+            },
+            {
+                "title": "Deputy Attorney-General",
+                "tag": 0,
+                "date": "1847 - 1849",
+                "desc": "Upon observance of his work in his own firm, Scott was appointed by the county as Deputy Attorney-General. Scott quickly gained favor and popularity, and was recognized as the leader of the Huntingdon Bar and ranked with the ablest lawyers in the interior of the State until 1849."
+            },
+            {
+                "title": "Bleeding Kansas and Political Polarization",
+                "tag": 2,
+                "date": "1850s",
+                "desc": "Between 1855 and 1859, Bleeding Kansas highlighted the sectionalism rift over slavery. The Kansas-Nebraska Act and the subsequent conflict exposed deep divisions in national politics. John Scott, actively involved in the political landscape, opposed President Buchanan's pro-slavery policies in Kansas, aligning himself as a Douglas Democrat. The violent situation likely influenced his eventual switch to support Republican candidates."
+            },
+            {
+                "title": "Board of Revenue Commissioners",
+                "tag": 0,
+                "date": "1851",
+                "desc": "Scott was appointed as a member of the board of revenue commissioners two years after the conclusion of his attorney career. He served as a member for one year, quickly gaining celebrity as the youngest and most active board member."
+            },
+            {
+                "title": "Democratic State Convention",
+                "tag": 0,
+                "date": "1852",
+                "desc": "Scott became a member of the Democratic State Convention marking his official entry into the political world. His participation in the convention demonstrates his willingness to engage in political discourse and advocate for his beliefs on a broader stage."
+            },
+            {
+                "title": "Scott’s Health Trip to Ireland",
+                "tag": 0,
+                "date": "1854",
+                "desc": "On account of his health failing, Scott took a trip to Ireland with elder William Dorris from his Protestant church for medical treatment. Upon his return, he was immediately nominated by the citizen’s convention for the Pennsylvania senate under the “know-nothing” party, however he declined."
+            },
+            {
+                "title": "Republican National Convention",
+                "tag": 1,
+                "date": "1856",
+                "desc": "The first Republican National Convention took place in Philadelphia in 1856 at the Music Fund Hall. Despite still being a Democrat, John Scott would likely have been intrigued by the newly formed Republican Party's policies discussed in his home state. This connection persisted, as Scott attended the convention as a delegate in 1868, particularly drawn to the anti-slavery policy agreements reached during these gatherings."
+            },
+            {
+                "title": "Special Counsel for the Pennsylvania Railroad Company",
+                "tag": 0,
+                "date": "1857",
+                "desc": "Moving away from politics, Scott was elected as Special Counsel for the Pennsylvania Railroad Company in Cambria County, alongwith Resident Counsel Cyrush Pershing, on an obscure case against six men. Scott won this case for the company and received large amounts of public support in the small county, securing him an official position as Special Counsel for the company."
+            },
+            {
+                "title": "Political Entry",
+                "tag": 0,
+                "date": "1857",
+                "desc": "John Scott serves as an intermediary in the Pennsylvania House of Representatives after the death of James B. Backhouse, a Republican Representative from Allegheny County, showcasing his readiness to step into critical roles during times of political transition."
+            },
+            {
+                "title": "Special Election",
+                "tag": 0,
+                "date": "1858",
+                "desc": "Scott narrowly wins a special election to fill Backhouse's seat, transitioning from Republican to Union Democrat, demonstrating his adaptability and willingness to align with evolving political ideologies."
+            },
+            {
+                "title": "Political Shift",
+                "tag": 0,
+                "date": "1860",
+                "desc": "Runs an unsuccessful campaign for the Pennsylvania State Senate as a Douglass Democrat, highlighting his engagement with the dynamic and shifting landscape of political affiliations during this period."
+            },
+            {
+                "title": "Return to Politics",
+                "tag": 0,
+                "date": "1861",
+                "desc": "Elected as a Union Democrat to the Pennsylvania House of Representatives without opposition, underlining his enduring influence and bipartisan appeal within the political sphere."
+            },
+            {
+                "title": "Battle of Gettysburg",
+                "tag": 1,
+                "date": "July 1863",
+                "desc": "The Battle of Gettysburg in July 1863 marked a turning point in the Civil War, crucially won under Pennsylvania Governor Curtin's leadership. John Scott, a recent member of the Pennsylvania House of Representatives, strongly supported Curtin's efforts. The battle's impact, with nearly 50,000 casualties, especially affected Scott given his proximity to Gettysburg in Huntingdon County, causing grief and concern for his family."
+            },
+            {
+                "title": "Advocacy for Re-election",
+                "tag": 0,
+                "date": "1863",
+                "desc": "Supports Governor Curtin and President Lincoln, playing a pivotal role in shaping Pennsylvania's unwavering support for the Union cause, showcasing his commitment to national unity and leadership."
+            },
+            {
+                "title": "Reconstruction and Voters' Rights Advocacy",
+                "tag": 2,
+                "date": "1865 - 1871",
+                "desc": "After the Civil War and the passing of the 13th Amendment in 1865, the nation faced the complexities of reconstruction. President Lincoln's assassination added a layer of sorrow, particularly for John Scott, who supported Lincoln in his 1864 campaign. The ratification of the 15th Amendment in 1870, granting African Americans the right to vote, prompted Scott's direct support through votes for legislation protecting voters' rights. His continued advocacy included opposition to the Ku Klux Klan's violence and intimidation."
+            },
+            {
+                "title": "National Republican Convention",
+                "tag": 0,
+                "date": "1868",
+                "desc": "Actively participates in the convention and is named a suitable successor to Mr. Buckalew in the U.S. Senate, solidifying his reputation as a respected figure within the Republican Party and national politics."
+            },
+            {
+                "title": "Knights of Labor Founded",
+                "tag": 1,
+                "date": "1869",
+                "desc": "In 1869, the Knights of Labor, initially founded by Philadelphia garment workers, emerged as a major national labor organization. Serving as General Counsel for the Pennsylvania Railroad (PRR), John Scott became aware of workers' rights movements. The organization's growing influence posed challenges for the PRR, directly impacting Scott's legal advisory role."
+            },
+            {
+                "title": "United States Senate",
+                "tag": 0,
+                "date": "1869",
+                "desc": "Elected to the U.S. Senate, serving until 1875 and chairing important committees, demonstrating his dedication to legislative responsibilities and effective leadership within the Senate."
+            },
+            {
+                "title": "Ku Klux Klan Act",
+                "tag": 0,
+                "date": "1871",
+                "desc": "Advocates for and enacts legislation empowering President Grant to combat the Ku Klux Klan, illustrating his commitment to civil rights and combating domestic terrorism through legislative action."
+            },
+            {
+                "title": "Joint Select Committee",
+                "tag": 0,
+                "date": "1872",
+                "desc": "Chairs the committee investigating former Confederate states' post-Civil War conditions, showcasing his role in addressing critical issues related to Reconstruction and national unity."
+            },
+            {
+                "title": "Panic of 1873 and The Great Railroad Strike",
+                "tag": 1,
+                "date": "1873",
+                "desc": "The Panic of 1873, triggered by the European Stock Market crash and overbuilding of railroad lines, severely affected the PRR. By 1877, the company faced depressed business conditions, leading to substantial wage cuts for its workers. John Scott played a key role in the historic strike of 1877, calling on the Pittsburgh Militia to suppress workers. This event, known as “The Great Strike,” caused unrest in Pittsburgh and significant stress in Scott's life due to his close involvement."
+            },
+            {
+                "title": "Railroad Strike Crisis",
+                "tag": 0,
+                "date": "1877",
+                "desc": "Advocates for deploying Pittsburgh militia during a railroad strike, demonstrating decisive leadership and proactive measures during a period of social unrest and labor disputes."
+            },
+            {
+                "title": "Opening of Wanamaker's Department Store",
+                "tag": 1,
+                "date": "1877",
+                "desc": "In 1877, Wanamaker's, the first department store, opened its doors in Philadelphia. Built over an abandoned Pennsylvania Railroad depot, the store was pioneering in modernity, boasting electric lights and a telephone. John Scott, likely aware of the store due to his association with the railroad, could have been among the upper-class shoppers it targeted."
+            },
+            {
+                "title": "First Philadelphia Phillies Game",
+                "tag": 1,
+                "date": "1883",
+                "desc": "The first-ever Philadelphia Phillies game was played at Recreation Park in 1883. In 1887, the team moved to a larger stadium on Broad Street. In his later years, John Scott, residing in West Philadelphia, could have been seen attending a game close to the University of Pennsylvania field where the Phillies played due to a fire. As John Scott's health declined in his later years, A Phillies game may have been one of the last major events he attended before his death on November 29, 1896."
+            },
+            {
+                "title": "Legal Address",
+                "tag": 0,
+                "date": "1885",
+                "desc": "Delivers a compelling address on the Anti-Discrimination Bill before the judiciary committee, emphasizing legal implications and fairness in transportation services, highlighting his continued advocacy for equality and justice within legislative frameworks."
+            },
+            {
+                "title": "Interstate Commerce Act",
+                "tag": 0,
+                "date": "1887",
+                "desc": "Following his address on the Anti-Discrimination Bill, Scott witnesses the enactment of the Interstate Commerce Act, a significant legislation aimed at regulating railroad monopolies and ensuring fair rates for passengers and shippers. This act marked a crucial step towards ensuring fair competition and preventing discriminatory practices in the transportation sector."
+            },
+            {
+                "title": "Philadelphian Influence",
+                "tag": 0,
+                "date": "1890",
+                "desc": "Served as a member of the Board of Publication and Sabbath School Work, a member of the Board of Ministerial Relief, a director and trustee of the Princeton Theological Seminary, and quite significantly, a trustee of the University of Pennsylvania."
+            },
+            {
+                "title": "Progressive Pushback and Labor Relations",
+                "tag": 2,
+                "date": "1890s",
+                "desc": "Between 1855 and 1859, Bleeding Kansas highlighted the sectionalism rift over slavery. The Kansas-Nebraska Act and the subsequent conflict exposed deep divisions in national politics. John Scott, actively involved in the political landscape, opposed President Buchanan's pro-slavery policies in Kansas, aligning himself as a Douglas Democrat. The violent situation likely influenced his eventual switch to support Republican candidates."
+            },
+            {
+                "title": "Death of John Scott",
+                "tag": 0,
+                "date": "November 29, 1896",
+                "desc": "In the 1890s, American Industrialism accelerated, accompanied by a progressive pushback against exploitative corporations. The Sherman Antitrust Act of 1890 marked a shift toward a more regulated government. Labor Day, introduced in 1894, reflected progress in labor relations. Despite declining political involvement due to health, John Scott, with his extensive experience as general counsel, likely noted and provided commentary on these changes, as they marked the evolving landscape in labor relations during his final years."
             }
         ]
     }

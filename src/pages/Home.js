@@ -1,6 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
+import FamilyTree from '../assets/FamilyTree.jpg';
 import coverVideo from '../assets/Newspaper.mp4';
 import timelineData from '../assets/TimelineData.json';
+import Funeral from '../assets/photoDocs/Funeral.jpg';
+import KKKNewspaper from '../assets/photoDocs/KKKNewspaper.png';
+import RailroadStation from '../assets/photoDocs/RailroadStation.jpg';
+import Residence from '../assets/photoDocs/Residence.png';
 import styles from './Home.module.scss';
 
 import { pdfjs } from 'react-pdf';
@@ -26,19 +31,22 @@ const HoverImage = ({coords}) => {
     );
 };
 
-// 0: personal, 1: local, 2: national
-
 const timelineBarColors = {
     0: '#39ff14',
     1: '#40a4ff',
     2: '#f72119',
 };
 
-const ScalingDate = ({date}) => {
+const ScalingPeriod = ({period, mhRef}) => {
     const wrapperRef = useRef();
     const textRef = useRef();
     let offset = 0;
     let scale = 1;
+
+    let max = 99999;
+    if (mhRef.current != undefined) {
+        max = mhRef.current.clientHeight + window.innerHeight - 300;
+    }
 
     if (wrapperRef.current != undefined && textRef.current != undefined) {
         let viewportOffset = wrapperRef.current.getBoundingClientRect();
@@ -46,7 +54,7 @@ const ScalingDate = ({date}) => {
         if (viewportOffset.top < 0) {
             offset = -viewportOffset.top;
             scale = 1 - (offset / height);
-            if (scale < 0.05) { scale = 0.05; }
+            if (scale < 0.1) { scale = 0.1; }
             console.log(scale);
         } else {
             offset = 0;
@@ -58,9 +66,9 @@ const ScalingDate = ({date}) => {
         <div ref={wrapperRef} className={styles.timelineDate}>
             <h1
                 ref={textRef}
-                style={{ transform: `scale(${scale}) translateY(${offset}px)` }}
+                style={{ transform: `translateY(${Math.min(offset + 200 * scale - 200, max)}px) scale(${scale})` }}
             >
-                {date}
+                {period}
             </h1>
         </div>
     );
@@ -68,6 +76,7 @@ const ScalingDate = ({date}) => {
 
 const Timeline = ({index}) => {
     const [offset, setOffset] = useState(0);
+    const ref = useRef();
 
     useEffect(() => {
         const onScroll = () => setOffset(window.scrollY);
@@ -78,14 +87,13 @@ const Timeline = ({index}) => {
 
     return (
         <div>
-            <ScalingDate date={timelineData[index].date}/>
-            <div>
+            <ScalingPeriod period={timelineData[index].period} mhRef={ref}/>
+            <div ref={ref}>
                 {timelineData[index].points.map((data, i) => 
-                    <div className={styles.timelineGrid}>
-                        <div>
-                            <h2>{data.title}</h2>
-                            <p>{data.desc}</p>
-                        </div>
+                    <div className={styles.timelinePoint}>
+                        <h2>{data.title}</h2>
+                        <h3>{data.date}</h3>
+                        <p>{data.desc}</p>
                     </div>
                 )}
             </div>
@@ -150,9 +158,7 @@ const Home = () => {
             </div>
             <div className={`${styles.section} ${styles.biography}`} id='biography'>
                 <h2>Biography</h2>
-                <object data="http://africau.edu/images/default/sample.pdf" type="application/pdf" width="100%" height="100%">
-      <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a></p>
-  </object>
+                <object data="./assets/Biography.pdf" type="application/pdf" width="90%" height="90%"/>
             </div>
             <div className={`${styles.section} ${styles.timeline}`} id='timeline'>
                 <h2>Timeline</h2>
@@ -162,15 +168,32 @@ const Home = () => {
             </div>
             <div className={`${styles.section} ${styles.photos}`} id='photos'>
                 <h2>Photo Documentation</h2>
-                
+                <div>
+                    <div>
+                        <img src={RailroadStation}/>
+                        <p>A picture of the Alexandria railroad station, the town that John Scott was born in</p>
+                    </div>
+                    <div>
+                        <img src={Funeral}/>
+                        <p>Church of John Scott’s funeral</p>
+                    </div>
+                    <div>
+                        <img src={Residence}/>
+                        <p>3808 Chestnut Street, Philadelphia, PA, the last residence of John Scott, his house is no longer there</p>
+                    </div>
+                    <div>
+                        <img src={KKKNewspaper}/>
+                        <p>John Scott played a key role in the KKK Act of 1871</p>
+                    </div>
+                </div>
             </div>
             <div className={`${styles.section} ${styles.documents}`} id='documents'>
                 <h2>Documents</h2>
-                
+                <object data="./assets/Documents.pdf" type="application/pdf" width="90%" height="90%"/>
             </div>
             <div className={`${styles.section} ${styles.tree}`} id='tree'>
                 <h2>Family Tree</h2>
-                
+                <img src={FamilyTree}/>
             </div>
             <HoverImage
                 coords={coords}
