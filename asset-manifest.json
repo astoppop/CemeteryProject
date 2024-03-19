@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/CemeteryProject/static/css/main.c293e411.css",
+    "main.js": "/CemeteryProject/static/js/main.416e2436.js",
+    "static/js/453.4e2838a9.chunk.js": "/CemeteryProject/static/js/453.4e2838a9.chunk.js",
+    "static/media/Newspaper.mp4": "/CemeteryProject/static/media/Newspaper.431a8955db2cdb2a58b4.mp4",
+    "static/media/FamilyTree.jpg": "/CemeteryProject/static/media/FamilyTree.63ce25c5b3382f9b22c8.jpg",
+    "static/media/Residence.png": "/CemeteryProject/static/media/Residence.b1a6f6dda99737f5f77a.png",
+    "static/media/pdf.worker.min.js": "/CemeteryProject/static/media/pdf.worker.min.9beededf7ddb624b1a94.js",
+    "static/media/KKKNewspaper.png": "/CemeteryProject/static/media/KKKNewspaper.7a3ddadf67bee1af968a.png",
+    "static/media/JohnScott.jpg": "/CemeteryProject/static/media/JohnScott.0e137b073d9e09e79e3c.jpg",
+    "static/media/RailroadStation.jpg": "/CemeteryProject/static/media/RailroadStation.702e05ce06c8ccc873db.jpg",
+    "static/media/Funeral.jpg": "/CemeteryProject/static/media/Funeral.c29156e354e740ee6b0e.jpg",
+    "index.html": "/CemeteryProject/index.html",
+    "main.c293e411.css.map": "/CemeteryProject/static/css/main.c293e411.css.map",
+    "main.416e2436.js.map": "/CemeteryProject/static/js/main.416e2436.js.map",
+    "453.4e2838a9.chunk.js.map": "/CemeteryProject/static/js/453.4e2838a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c293e411.css",
+    "static/js/main.416e2436.js"
+  ]
+}
